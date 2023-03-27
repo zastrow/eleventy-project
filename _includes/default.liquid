@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>{{ title }}</title>
+		<style>
+			body {
+				font: 100% / 1.5 sans-serif;
+				color: #333;
+			}
+
+			header {
+				background-color: gold;
+			}
+		</style>
+	</head>
+	<body>
+		{% include "header" %}
+		{{ content }}
+		<footer>
+			<p>&copy; 2023</p>
+		</footer>
+	</body>
+</html>
