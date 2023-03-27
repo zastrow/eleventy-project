@@ -1,0 +1,12 @@
+---
+layout: default
+title: My Site
+---
+<h1>{{ title }}</h1>
+<p>Hello World!</p>
+
+<p><a href="/about">About This Site</a></p>
+
+{% for item in people %}
+	{% include "info-card" %}
+{% endfor %}
